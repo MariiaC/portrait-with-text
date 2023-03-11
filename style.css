@@ -1,0 +1,17 @@
+body {
+  /* margin: 0; */
+  background: #000;
+}
+
+div p {
+  background-image: url("./img/Agatha-Christie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* обрізаємо текст по фону картинки */
+  -webkit-background-clip: text;
+  color: transparent;
+
+  line-height: 12px;
+}
